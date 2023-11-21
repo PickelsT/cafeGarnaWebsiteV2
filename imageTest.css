@@ -1,0 +1,17 @@
+.container{
+    background: black;
+    position: relative !important;
+    background-size: 100% 100%;
+    background-color: black;
+}
+
+.box{
+    scale: 75%;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    top: -6%;
+    right: -3%;
+    margin-right: 0 !important;
+}

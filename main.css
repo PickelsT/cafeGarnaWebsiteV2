@@ -1,0 +1,164 @@
+body {
+    background-image: url('/images/bgFull.svg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-div {
+    /* Your additional styles for the centered div */
+}
+
+.title h1{
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    text-shadow: #9b9b9b 1px 1px 1px;
+    font-size: 3rem;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.back-button a {
+    font-family: 'Verdana', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333; /* You can change the background color */
+    color: #fff; /* You can change the text color */
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-items {
+    background: #ff9385;
+    border-radius: 2.5rem;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.opening-times {
+        margin-top: 3%;
+        background: #8ac5c4;
+        border-top-left-radius: 2.5rem;
+        border-top-right-radius: 2.5rem;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: fit-content;
+        flex: 0 0 auto;
+}
+
+.opening-text {
+    font-family: 'Verdana', sans-serif;
+    margin-top: 20px;
+    font-family: 'Verdana', sans-serif;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.opening-times li {
+    display: block;
+    list-style-type: disc;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+
+.opening-times h2{
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.info {
+    margin-top: -2rem;
+    background: #e7afd0;
+    border-radius: 2.5rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+ /* prevent the div from growing or shrinking */
+}
+
+.info p a{
+    color: #ff9385;
+}
+
+.info p {
+    font-family: 'Verdana', sans-serif;
+    margin-top: 20px;
+    font-family: 'Verdana', sans-serif;
+    text-align: left;
+    margin-block-end: 1em;
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
+    width: fit-content;
+    max-width: 625px;
+    font-size: 1.5em;
+    font-weight: 10;
+    text-align: left;
+}
+
+.volunteer {
+    padding: 1%;
+    background: #333;
+    border-radius: 1rem;
+}
+
+.volunteer p{
+    color: #ffffff;
+}
+
+.center-div .p {
+    margin: 0;
+    
+}
+
+.menu-items {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+}
+
+.menu-items h2{ 
+    font-size: 35px;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+}
+
+.menu-items li {
+    margin-top: 20px;
+    display: block;
+    text-align: left;
+
+}
+
+.menu-items span {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    display: inline-block;
+}
+
+.menu-items span:hover {
+    color: #ffffff;
+}
+
+
+
